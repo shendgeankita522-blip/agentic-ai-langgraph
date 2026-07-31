@@ -1,15 +1,23 @@
 # agentic-ai-langgraph
 A collection of Agentic AI projects built using LangGraph, LangChain, Python, and LLMs, featuring stateful workflows, tool calling, memory, and intelligence 
+
+
 # 🤖 Gemini AI Applications using Google Gemini API
 
 ## 📌 Overview
 
-This project contains multiple AI applications built using **Google Gemini API**, **Python**, and **Streamlit**.
-The project demonstrates different Generative AI capabilities such as chatbot interaction, question answering, and image understanding using Gemini models.
+This repository contains multiple Generative AI applications built using **Google Gemini API**, **Python**, and **Streamlit**.
+
+The project demonstrates different capabilities of Gemini AI including:
+
+* AI Chatbot
+* Question Answering System
+* Image Understanding using Gemini Vision
+* Gemini API testing and experimentation
 
 ---
 
-# 🚀 Applications and Outputs
+# 🚀 Applications Included
 
 ## 1. 🌐 Gemini AI Streamlit Application
 
@@ -19,17 +27,17 @@ The project demonstrates different Generative AI capabilities such as chatbot in
 
 ### Description:
 
-A Streamlit-based Gemini AI application that provides an interactive interface for users to communicate with the Gemini model.
+A Streamlit-based application that provides an interactive interface to communicate with Google Gemini AI.
 
 ### Features:
 
 * User-friendly interface
-* Gemini AI response generation
-* Interactive AI experience
+* Gemini-powered responses
+* Real-time AI interaction
 
 ### Output:
 
-<img src="images/App OUTPUT.png" width="800"/>
+<img src="./Images/Output%20Images/App%20OUTPUT.png" width="800"/>
 
 ---
 
@@ -41,17 +49,17 @@ A Streamlit-based Gemini AI application that provides an interactive interface f
 
 ### Description:
 
-A conversational AI chatbot using Google Gemini API that generates human-like responses based on user input.
+A conversational AI chatbot developed using Google Gemini API that allows users to interact with an AI assistant.
 
 ### Features:
 
-* Text-based conversation
-* Natural language processing
-* Real-time AI responses
+* Natural language conversation
+* AI-generated responses
+* Real-time chatbot interaction
 
 ### Output:
 
-<img src="images/Chat Output.png" width="800"/>
+<img src="./Images/Output%20Images/Chat%20Output.png" width="800"/>
 
 ---
 
@@ -63,17 +71,17 @@ A conversational AI chatbot using Google Gemini API that generates human-like re
 
 ### Description:
 
-A Question Answering system that uses Gemini AI to answer user queries intelligently.
+A Question Answering system that uses Gemini AI to understand user queries and generate accurate responses.
 
 ### Features:
 
 * Question understanding
-* AI-generated answers
+* AI-based answer generation
 * Fast response generation
 
 ### Output:
 
-<img src="images/QACHAT Output.png" width="800"/>
+<img src="./Images/Output%20Images/QACHAT%20Output.png" width="800"/>
 
 ---
 
@@ -85,23 +93,64 @@ A Question Answering system that uses Gemini AI to answer user queries intellige
 
 ### Description:
 
-An image understanding application using Gemini Vision capabilities.
-Users can upload images and ask questions about the uploaded image.
+A multimodal AI application using Gemini Vision that analyzes uploaded images and provides intelligent descriptions.
 
 ### Features:
 
 * Image upload
 * Image analysis
 * Visual question answering
-* Multimodal AI interaction
+* Multimodal AI capabilities
 
-### Input Image:
+## Input Image:
 
-<img src="images/Vision1.png" width="600"/>
+<img src="./Images/Output%20Images/Vision1.png" width="600"/>
 
-### Gemini Vision Output:
+## Gemini Vision Output:
 
-<img src="images/Vision2.png" width="800"/>
+<img src="./Images/Output%20Images/Vision2.png" width="800"/>
+
+---
+
+# 5. 🧪 Gemini Model Testing
+
+### File:
+
+`testmodels.py`
+
+### Description:
+
+Used for testing Gemini models, checking API connectivity, and experimenting with different Gemini model responses.
+
+---
+
+# 6. 📚 Gemini Introduction
+
+### File:
+
+`gemini_intro.py`
+
+### Description:
+
+Basic implementation of Google Gemini API with Python.
+
+Concepts covered:
+
+* API configuration
+* Model initialization
+* Text generation
+
+---
+
+# 7. 📚 Gemini Introduction 1
+
+### File:
+
+`gemini_intro1.py`
+
+### Description:
+
+Additional examples demonstrating Gemini API usage and response generation.
 
 ---
 
@@ -129,12 +178,13 @@ Gemini-AI-Applications/
 ├── gemini_intro.py
 ├── gemini_intro1.py
 │
-├── images/
-│   ├── App OUTPUT.png
-│   ├── Chat Output.png
-│   ├── QACHAT Output.png
-│   ├── Vision1.png
-│   └── Vision2.png
+├── Images/
+│   └── Output Images/
+│       ├── App OUTPUT.png
+│       ├── Chat Output.png
+│       ├── QACHAT Output.png
+│       ├── Vision1.png
+│       └── Vision2.png
 │
 ├── requirements.txt
 ├── README.md
@@ -145,13 +195,13 @@ Gemini-AI-Applications/
 
 # ⚙️ Installation
 
-Clone the repository:
+### Clone Repository
 
 ```bash
-git clone <your-repository-link>
+git clone <your-github-repository-url>
 ```
 
-Install dependencies:
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -159,25 +209,52 @@ pip install -r requirements.txt
 
 ---
 
-# 🔑 API Key Configuration
+# 🔑 Environment Setup
 
-Create a `.env` file:
+Create a `.env` file in the project directory:
 
 ```env
 GOOGLE_API_KEY=your_gemini_api_key
 ```
 
-⚠️ Do not upload `.env` file to GitHub.
+Load API key:
+
+```python
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+api_key = os.getenv("GOOGLE_API_KEY")
+```
 
 ---
 
 # ▶️ Run Application
 
-Run Streamlit app:
+Run the Streamlit application:
 
 ```bash
 streamlit run app.py
 ```
+
+---
+
+# ⚠️ Important Notes
+
+* Never upload your `.env` file to GitHub.
+* Keep your Gemini API key private.
+* Add `.env` inside `.gitignore`.
+* Users need their own Gemini API key to run this project.
+
+---
+
+# 🎯 Future Improvements
+
+* Add conversation memory
+* Add voice interaction
+* Deploy using Streamlit Cloud
+* Add more Gemini multimodal features
 
 ---
 
@@ -186,4 +263,3 @@ streamlit run app.py
 **Ankita Shendge**
 
 B.Tech Artificial Intelligence & Data Science
-
