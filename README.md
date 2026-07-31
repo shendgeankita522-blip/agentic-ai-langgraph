@@ -30,7 +30,7 @@ A conversational AI chatbot that uses the Google Gemini API to generate human-li
 
 ### Output:
 
-![Gemini Chat Output](images/chat_output.png)
+![Gemini Chat Output]https://github.com/shendgeankita522-blip/agentic-ai-langgraph/blob/main/Images/Output%20Images/Vision1.png
 
 ---
 
