@@ -1,144 +1,17 @@
 # agentic-ai-langgraph
-A collection of Agentic AI projects built using LangGraph, LangChain, Python, and LLMs, featuring stateful workflows, tool calling, memory, and intelligent AI agents.
-
+A collection of Agentic AI projects built using LangGraph, LangChain, Python, and LLMs, featuring stateful workflows, tool calling, memory, and intelligence 
 # 🤖 Gemini AI Applications using Google Gemini API
 
 ## 📌 Overview
 
-This repository contains multiple AI applications built using **Google Gemini API** and **Python**.
-The project demonstrates different capabilities of Generative AI, including AI chatbot, question answering, image understanding, and Gemini model testing.
+This project contains multiple AI applications built using **Google Gemini API**, **Python**, and **Streamlit**.
+The project demonstrates different Generative AI capabilities such as chatbot interaction, question answering, and image understanding using Gemini models.
 
 ---
 
-# 🚀 Applications Included
+# 🚀 Applications and Outputs
 
-## 1. 💬 Gemini Chat Application
-
-### File:
-
-`chat.py`
-
-### Description:
-
-A conversational AI chatbot that uses the Google Gemini API to generate human-like responses.
-
-### Features:
-
-* Text-based AI conversation
-* Natural language understanding
-* Real-time Gemini responses
-
-### Output:
-
-![Gemini Chat Output]https://github.com/shendgeankita522-blip/agentic-ai-langgraph/blob/main/Images/Output%20Images/Vision1.png
-
----
-
-# 2. ❓ Gemini Question Answering System
-
-### File:
-
-`qachat.py`
-
-### Description:
-
-A Question Answering application where users can ask questions and receive AI-generated answers using Gemini.
-
-### Features:
-
-* User query handling
-* Context-based responses
-* AI-powered question answering
-
-### Output:
-
-![Gemini QA Output](images/qachat_output.png)
-
----
-
-# 3. 👁️ Gemini Vision Application
-
-### File:
-
-`vision.py`
-
-### Description:
-
-An image analysis application using Gemini Vision.
-Users can upload images and ask questions about the image.
-
-### Features:
-
-* Image upload support
-* Image understanding
-* Visual question answering
-* AI-generated image descriptions
-
-## Input Image:
-
-![Vision Input Image](images/vision_input.png)
-
-## Gemini Vision Output:
-
-![Vision Output](images/vision_output.png)
-
----
-
-# 4. 🧪 Gemini Model Testing
-
-### File:
-
-`testmodels.py`
-
-### Description:
-
-This file is used to test Gemini models and verify API connectivity and model responses.
-
-### Output:
-
-![Model Testing Output](images/testmodel_output.png)
-
----
-
-# 5. 📚 Gemini Introduction
-
-### File:
-
-`gemini_intro.py`
-
-### Description:
-
-Basic implementation of Google Gemini API with Python.
-
-### Concepts Covered:
-
-* Gemini API setup
-* Model configuration
-* Text generation
-
-### Output:
-
-![Gemini Intro Output](images/gemini_intro_output.png)
-
----
-
-# 6. 📚 Gemini Introduction 1
-
-### File:
-
-`gemini_intro1.py`
-
-### Description:
-
-Additional examples demonstrating Gemini API usage and response generation.
-
-### Output:
-
-![Gemini Intro 1 Output](images/gemini_intro1_output.png)
-
----
-
-# 🌐 Main Application
+## 1. 🌐 Gemini AI Streamlit Application
 
 ### File:
 
@@ -146,17 +19,89 @@ Additional examples demonstrating Gemini API usage and response generation.
 
 ### Description:
 
-Streamlit-based interface that combines Gemini AI features into a user-friendly web application.
+A Streamlit-based Gemini AI application that provides an interactive interface for users to communicate with the Gemini model.
 
 ### Features:
 
-* Interactive UI
-* Gemini-powered responses
-* Easy user interaction
+* User-friendly interface
+* Gemini AI response generation
+* Interactive AI experience
 
 ### Output:
 
-![Streamlit App Output](images/app_output.png)
+<img src="images/App OUTPUT.png" width="800"/>
+
+---
+
+# 2. 💬 Gemini Chat Application
+
+### File:
+
+`chat.py`
+
+### Description:
+
+A conversational AI chatbot using Google Gemini API that generates human-like responses based on user input.
+
+### Features:
+
+* Text-based conversation
+* Natural language processing
+* Real-time AI responses
+
+### Output:
+
+<img src="images/Chat Output.png" width="800"/>
+
+---
+
+# 3. ❓ Gemini Question Answering Application
+
+### File:
+
+`qachat.py`
+
+### Description:
+
+A Question Answering system that uses Gemini AI to answer user queries intelligently.
+
+### Features:
+
+* Question understanding
+* AI-generated answers
+* Fast response generation
+
+### Output:
+
+<img src="images/QACHAT Output.png" width="800"/>
+
+---
+
+# 4. 👁️ Gemini Vision Application
+
+### File:
+
+`vision.py`
+
+### Description:
+
+An image understanding application using Gemini Vision capabilities.
+Users can upload images and ask questions about the uploaded image.
+
+### Features:
+
+* Image upload
+* Image analysis
+* Visual question answering
+* Multimodal AI interaction
+
+### Input Image:
+
+<img src="images/Vision1.png" width="600"/>
+
+### Gemini Vision Output:
+
+<img src="images/Vision2.png" width="800"/>
 
 ---
 
@@ -185,13 +130,11 @@ Gemini-AI-Applications/
 ├── gemini_intro1.py
 │
 ├── images/
-│   ├── Input.png
-│   ├── Output.png
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├
-│   ├── 
+│   ├── App OUTPUT.png
+│   ├── Chat Output.png
+│   ├── QACHAT Output.png
+│   ├── Vision1.png
+│   └── Vision2.png
 │
 ├── requirements.txt
 ├── README.md
@@ -200,15 +143,15 @@ Gemini-AI-Applications/
 
 ---
 
-# ⚙️ Installation & Setup
+# ⚙️ Installation
 
-## 1. Clone Repository
+Clone the repository:
 
 ```bash
-git clone <your-github-repository-url>
+git clone <your-repository-link>
 ```
 
-## 2. Install Dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -216,52 +159,25 @@ pip install -r requirements.txt
 
 ---
 
-# 🔑 API Key Setup
+# 🔑 API Key Configuration
 
-Create a `.env` file in the project folder:
+Create a `.env` file:
 
 ```env
 GOOGLE_API_KEY=your_gemini_api_key
 ```
 
-Load the API key using:
-
-```python
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
-api_key = os.getenv("GOOGLE_API_KEY")
-```
+⚠️ Do not upload `.env` file to GitHub.
 
 ---
 
 # ▶️ Run Application
 
-Run the Streamlit application:
+Run Streamlit app:
 
 ```bash
 streamlit run app.py
 ```
-
----
-
-# ⚠️ Important Notes
-
-* Never upload your `.env` file to GitHub.
-* Keep your Gemini API key private.
-* Add `.env` to `.gitignore`.
-* Use your own Gemini API key before running the project.
-
----
-
-# 🎯 Future Improvements
-
-* Add conversation memory
-* Add voice input/output
-* Deploy using Streamlit Cloud
-* Add more Gemini multimodal features
 
 ---
 
@@ -270,8 +186,4 @@ streamlit run app.py
 **Ankita Shendge**
 
 B.Tech Artificial Intelligence & Data Science
-
-GitHub: <your-github-profile-link>
-
-LinkedIn: <your-linkedin-profile-link>
 
